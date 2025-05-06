@@ -1,7 +1,7 @@
 function pesquisaSatisfacao(){
    
     let nota // guarda as notas
-    let conta = 1 // conta de 1 a 6
+    let conta = 1 // conta de 1 a 10
     let soma = 0
     let satisfacao = 0
     let insatisfacao = 0
