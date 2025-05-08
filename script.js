@@ -15,8 +15,10 @@ function pesquisaSatisfacao(){
 
         if(nota >= 8){
           satisfacao++
-        } else if(nota < 5){
+        } else if(nota >= 0 && nota < 5){
           insatisfacao++
+        } else if(nota >= 0 && nota > 10){
+          alert("Nota Invalida!!)
         }
     }
 
